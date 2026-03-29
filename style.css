@@ -37,3 +37,13 @@ button {
     padding: 20px;
     border-radius: 10px;
 }
+li {
+    font-size: 18px;
+    margin: 10px auto;
+    background: white;
+    color: black;
+    padding: 8px;
+    width: 150px;
+    border-radius: 5px;
+}
+
