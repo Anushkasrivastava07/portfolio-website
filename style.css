@@ -62,4 +62,34 @@ button {
         flex-direction: column;
     }
 }
+#home {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card {
+    background: white;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+section {
+    padding: 60px 20px;
+}
+nav {
+    background: rgba(0,0,0,0.8);
+    position: sticky;
+    top: 0;
+}
+
 
