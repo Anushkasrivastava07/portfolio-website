@@ -51,12 +51,20 @@ section {
     color: black;
 }
 button {
-    background:#FFFDD0;
-    color: black;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
+  display: inline-block;   
+  width: auto;             
+  
+  background: black;       
+  color: white;
+
+  padding: 10px 20px;      
+  margin-top: 15px;        
+
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
 }
+
 @media(max-width: 600px){
     nav ul {
         flex-direction: column;
