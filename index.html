@@ -1,46 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Anushka Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <div class="container">
-
-        <img src="https://via.placeholder.com/150" class="profile">
-
-        <h1>Hi, I'm Anushka </h1>
-        <p>Final Year B.Tech Student | Aspiring Developer</p>
-
-        <button onclick="showMessage()">Contact Me</button>
-
-        <h2>My Skills</h2>
+    <nav>
+        <h2>Anushka</h2>
         <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
         </ul>
+        <button onclick="toggleDarkMode()">🌙</button>
+    </nav>
 
+    <section id="home">
+        <h1>Hello, I'm Anushka </h1>
+        <p>Aspiring Web Developer</p>
+        <button onclick="showMessage()">Hire Me</button>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a B.Tech student learning Web Development and DSA.</p>
+    </section>
+    <section id="projects">
         <h2>Projects</h2>
-        <div class="projects">
-            <div class="card">
-                <h3>Portfolio Website</h3>
-                <p>This is my personal portfolio website</p>
-            </div>
-
-            <div class="card">
-                <h3>Weather App</h3>
-                <p>Coming soon...</p>
-            </div>
-        </div>
-
-        <h2>Contact Me</h2>
-        <p>Email: anushkasrivastava020@gmail.com</p>
-
-    </div>
+        <div class="card">Portfolio Website</div>
+        <div class="card">Weather App (Coming Soon)</div>
+        <div class="card">Job Tracker (Coming Soon)</div>
+    </section>
 
     <script src="script.js"></script>
-
 </body>
 </html>
+
+        
+        
