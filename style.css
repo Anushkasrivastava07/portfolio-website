@@ -47,11 +47,11 @@ section {
 }
 
 .dark {
-    background: #121212;
+    background: #F5F5DC;
     color: white;
 }
 button {
-    background: #4CAF50;
+    background:#FFFDD0;
     color: white;
     padding: 10px;
     border: none;
